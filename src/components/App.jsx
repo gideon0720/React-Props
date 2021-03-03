@@ -3,7 +3,6 @@ import Card from './Card';
 import contacts from '../contacts';
 
 function App() {
-  console.log(typeof contacts[0].name);
   return (
     <div>
       <h1 className='heading'>My Contacts</h1>
